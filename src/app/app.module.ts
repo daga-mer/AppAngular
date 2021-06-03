@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { JikanComponent } from './jikan/jikan.component';
 import { RouteModule } from "./Route/Route.module";
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { RouteModule } from "./Route/Route.module";
   ],
   imports: [
     BrowserModule,
-    RouteModule
+    RouteModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
